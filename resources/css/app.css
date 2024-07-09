@@ -1,0 +1,35 @@
+@import "slick-slider/slick/slick.css";
+@import "slick-slider/slick/slick-theme.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    font-family: 'Lato', 'sans-serif';
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-background-clip: text;
+}
+
+/* hero slider css  */
+
+div.hero-slider {
+    min-height: 33.33vh;
+    border-radius: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+div.hero__right {
+    bottom: 100vh;
+}
